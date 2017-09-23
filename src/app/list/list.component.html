@@ -1,0 +1,31 @@
+
+
+<div class="container" [routerLink]="['movie', movies?.id]">
+  <div class="img">
+      <img [src]="posterUrl + movies?.poster_path" [alt]="movies?.tagline+ ' Poster'" class="src">
+  </div>
+  <div class="description">
+    <div class="title">
+      <h3>{{movies?.original_title}}</h3>
+    </div>
+    <div class="movie-description">
+      <h4>{{movies?.overview}}</h4>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="container" *ngFor="let movie of movies | async">
+  <div class="img">
+      <img [src]="posterUrl + movie.poster_path" alt="" class="src">
+  </div>
+  <div class="description">
+    <div class="title">
+      <h3>{{movie.original_title}}</h3>
+    </div>
+    <div class="movie-description">
+      <h4>{{movie.overview}}</h4>
+    </div>
+  </div>
+</div> -->

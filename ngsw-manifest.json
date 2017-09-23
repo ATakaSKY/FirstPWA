@@ -1,0 +1,17 @@
+{
+    "routing": {
+        "index": "/index.html",
+        "routes": {
+            "/": {
+                "match": "exact"
+            },
+            "/movie":{
+                "match":"prefix"
+            }
+        }
+    },
+    "static.ignore": [
+        "^\/icons\/.*$"
+    ]
+
+}

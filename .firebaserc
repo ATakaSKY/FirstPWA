@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "pwa-movies-rock": "pwamovies",
+    "default": "pwamovies"
+  }
+}

@@ -1,0 +1,9 @@
+<button class="back" (click)="goToMovies()" style="margin:30px;font-size:1.5em;background:coral;color:#fff;padding:12px">
+  go back
+</button>
+
+<div>
+<img [src]="posterUrl + movie?.poster_path" alt="" class="serc">
+<h3>{{movie?.original_title}}</h3>
+<h4>{{movie?.overview}}</h4>
+</div>
